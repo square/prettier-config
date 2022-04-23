@@ -4,5 +4,8 @@
   "description": "Square's Prettier config",
   "main": "prettier.json",
   "repository": "git@github.com:square/prettier-config.git",
-  "license": "apache-2.0"
+  "license": "apache-2.0",
+  "scripts": {
+    "postversion": "git push && git push --tags"
+  }
 }
